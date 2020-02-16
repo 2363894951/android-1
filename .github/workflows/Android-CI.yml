@@ -47,7 +47,7 @@ jobs:
         uses: malinskiy/action-android/emulator-run-cmd@release/0.0.3
         with:
           cmd: ./gradlew cAT --stacktrace
-          api: 18
+          api: 25
           tag: default
           abi: x86
       - name: Archive Espresso results
